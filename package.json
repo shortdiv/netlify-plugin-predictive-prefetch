@@ -1,0 +1,11 @@
+{
+  "name": "netlify-plugin-predictive-prefetch",
+  "version": "1.0.0",
+  "description": "A netlify build plugin to add prefetch links to markup",
+  "main": "index.js",
+  "author": "Divya Tagtachian",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^49.0.0"
+  }
+}

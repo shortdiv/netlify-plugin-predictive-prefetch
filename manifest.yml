@@ -1,0 +1,8 @@
+name: netlify-plugin-predictive-prefetch
+inputs:
+  - name: startDate
+    description: Accepted formats include YYYY-MM-DD, or as a relative date (e.g., today, yesterday, or NdaysAgo where N is a positive integer)
+    # https://developers.google.com/analytics/devguides/reporting/core/v3/reference#startDate
+  - name: endDate
+    description: Accepted formats include YYYY-MM-DD, or as a relative date (e.g., today, yesterday, or NdaysAgo where N is a positive integer)
+    # https://developers.google.com/analytics/devguides/reporting/core/v3/reference#endDate
