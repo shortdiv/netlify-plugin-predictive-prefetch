@@ -100,7 +100,6 @@ const makePrediction = async (pages) => {
 let predictions;
 
 module.exports = {
-  name: 'netlify-plugin-predictive-prefetch',
   onPostBuild:async ({ constants, inputs }) => {
     const startDate = inputs.startDate || "30daysAgo";
     const endDate = inputs.endDate || "yesterday";
